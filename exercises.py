@@ -85,7 +85,8 @@ print('Exercise 4: Convert 32°F to Celsius:', convert_temperature(32, 'F'))
 # Define the function and then call it below.
 
 def sum_to(int):
-    return int * (int + 1) // 2
+     return sum(range(1+int))
+
 
 
 print('Exercise 5:', sum_to(6))
@@ -101,7 +102,7 @@ print('Exercise 5:', sum_to(6))
 # Define your function and test it with different inputs.
 
 def largest(num1,num2,num3):
-    return 
+    return(max(num1,num2,num3))
 
 
 
@@ -119,7 +120,7 @@ print('Exercise 6:', largest(1, 2, 3))
 # Write your function and test its output below.
 
 def calculate_tip(bill,tipPercentage):
-    return ()
+     return (bill * (tipPercentage/100))
 
 
 print('Exercise 7:', calculate_tip(50, 20))
